@@ -1,6 +1,11 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
+    const active = {
+        fontWeight: 'bold',
+        textDecoration: 'underline'
+    }
   return (
     <section className="footer">
         <div className="box-container">
@@ -14,18 +19,19 @@ const Footer = () => {
             </div>
             <div className="box">
                 <h3>quick links</h3>
-                <a href="#home"><i className="fas fa-arrow-right"></i> home</a>
-                <a href="#about"><i className="fas fa-arrow-right"></i> about</a>
-                <a href="#menu"><i className="fas fa-arrow-right"></i> menu</a>
-                <a href="#review"><i className="fas fa-arrow-right"></i> review</a>
-                <a href="#book"><i className="fas fa-arrow-right"></i> book</a>
+                <a><NavLink to='/' style={({isActive}) =>  isActive ? active: null}><i className="fas fa-arrow-right"></i>home</NavLink></a>
+                <a ><NavLink to='/about' style={({isActive}) =>  isActive ? active: null}><i className="fas fa-arrow-right"></i>about</NavLink></a>
+                <a><NavLink to='/store' style={({isActive}) =>  isActive ? active: null}><i className="fas fa-arrow-right"></i>store</NavLink></a>
+                <a><NavLink to='/review' style={({isActive}) =>  isActive ? active: null}><i className="fas fa-arrow-right"></i>review</NavLink></a>
+                <a><NavLink to='/contactus' style={({isActive}) =>  isActive ? active: null}><i className="fas fa-arrow-right"></i>contact us</NavLink></a>
+
             </div>
             <div className="box">
                 <h3>contact info</h3>
                 <a href="#"><i className="fas fa-phone"></i> +123-456-7890</a>
                 <a href="#"><i className="fas fa-phone"></i> +111-222-3333</a>
-                <a href="#"><i className="fas fa-envelope"></i> coffee@gmail.com</a>
-                <a href="#"><i className="fas fa-envelope"></i> Perú, Lima</a>
+                <a href="#"><i className="fas fa-envelope"></i> cafera@cafera.com</a>
+                <a href="#"><i className="fas fa-envelope"></i> colombo, Sri Lanka</a>
             </div>
             <div className="box">
                 <h3>contact info</h3>
@@ -37,7 +43,7 @@ const Footer = () => {
             </div>
             
         </div>
-        <div className="credit">created by <span>cafera</span> | all rights reserved</div>
+        <div className="credit">created by <span>evogen</span> | all rights reserved</div>
     </section>
   )
 }

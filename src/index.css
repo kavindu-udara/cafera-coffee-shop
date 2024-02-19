@@ -108,6 +108,11 @@ section {
     display: none;
 }
 
+.active-menu-btn{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 /* HOME */
 
 .home {

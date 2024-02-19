@@ -20,8 +20,8 @@ const Home = () => {
             <section className='home' id='home'>
                 <div className="row">
                     <div className="content">
-                        <h3>Fresh Coffee in the morning</h3>
-                        <a href="#" className='btn'>buy one now</a>
+                        <h3>Fresh Coffee in everytime</h3>
+                        <a href="#" className='btn'>buy now</a>
                     </div>
                     <div className="image">
                         <img src={Homeimg1} alt="home img 1" />

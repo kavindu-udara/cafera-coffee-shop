@@ -17,7 +17,7 @@ const Store = () => {
                 <div className="content">
                     <h3>our special coffee</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus sit, iure errm</p>
-                    <span style={{fontWeight: 'bold'}}>$8.99</span>
+                    <span style={{fontWeight: 'bold'}}>$9.99</span>
                     <span style={{marginLeft: '20px'}}>15<i className="fas fa-star"></i></span>
                     <br />
                     <button className='buy-btn'>buy now</button>
@@ -29,7 +29,7 @@ const Store = () => {
                 <div className="content">
                     <h3>our special coffee</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus sit, iure errm</p>
-                    <span style={{fontWeight: 'bold'}}>$8.99</span>
+                    <span style={{fontWeight: 'bold'}}>$7.99</span>
                     <span style={{marginLeft: '20px'}}>12<i className="fas fa-star"></i></span>
                     <br />
                     <button className='buy-btn'>buy now</button>
@@ -41,7 +41,7 @@ const Store = () => {
                 <div className="content">
                     <h3>our special coffee</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus sit, iure errm</p>
-                    <span style={{fontWeight: 'bold'}}>$8.99</span>
+                    <span style={{fontWeight: 'bold'}}>$6.99</span>
                     <span style={{marginLeft: '20px'}}>10<i className="fas fa-star"></i></span>
                     <br />
                     <button className='buy-btn'>buy now</button>
@@ -53,7 +53,7 @@ const Store = () => {
                 <div className="content">
                     <h3>our special coffee</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus sit, iure errm</p>
-                    <span style={{fontWeight: 'bold'}}>$8.99</span>
+                    <span style={{fontWeight: 'bold'}}>$4.99</span>
                     <span style={{marginLeft: '20px'}}>22<i className="fas fa-star"></i></span>
                     <br />
                     <button className='buy-btn'>buy now</button>
@@ -65,7 +65,7 @@ const Store = () => {
                 <div className="content">
                     <h3>our special coffee</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus sit, iure errm</p>
-                    <span style={{fontWeight: 'bold'}}>$8.99</span>
+                    <span style={{fontWeight: 'bold'}}>$2.99</span>
                     <span style={{marginLeft: '20px'}}>17<i className="fas fa-star"></i></span>
                     <br />
                     <button className='buy-btn'>buy now</button>
@@ -77,7 +77,7 @@ const Store = () => {
                 <div className="content">
                     <h3>our special coffee</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus sit, iure errm</p>
-                    <span style={{fontWeight: 'bold'}}>$8.99</span>
+                    <span style={{fontWeight: 'bold'}}>$5.99</span>
                     <span style={{marginLeft: '20px'}}>5<i className="fas fa-star"></i></span>
                     <br />
                     <button className='buy-btn'>buy now</button>
