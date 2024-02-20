@@ -1,5 +1,5 @@
 import React from 'react'
-import Homeimg1 from '../assets/home-bg-coffe.png'
+import Homeimg1 from '../assets/home-coffee-bag-pack.png';
 import Homeimg2 from '../assets/home-img-2.png'
 import Homeimg3 from '../assets/home-img-3.png'
 

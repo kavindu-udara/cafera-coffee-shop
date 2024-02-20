@@ -142,11 +142,11 @@ section {
 }
 
 .home .row .image img {
-    height: 35rem;
+    height: 65rem;
     /* animation: float 4s linear infinite; */
 }
 
-@keyframes float {
+/* @keyframes float {
 
     0%,
     100% {
@@ -156,7 +156,7 @@ section {
     50% {
         transform: translateY(-7rem);
     }
-}
+} */
 
 .home .row .content h3 {
     font-size: 6.5rem;

@@ -97,7 +97,6 @@ const Store = () => {
                     <button className='buy-btn'>add to cart</button>
                 </div>
             </a>
-
         </div>
     </section>
   )
