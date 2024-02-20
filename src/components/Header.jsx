@@ -18,8 +18,8 @@ const Header = () => {
     return (
         <>
             <div className='header'>
-                <div onClick={handleMenu} id="menu-btn" class="fas fa-bars"></div>
-                <a href="#" class="logo">cafera <i class="fas fa-mug-hot"></i></a>
+                <div onClick={handleMenu} id="menu-btn" className="fas fa-bars"></div>
+                <a href="#" className="logo">cafera <i class="fas fa-mug-hot"></i></a>
 
                 <nav class="navbar">
                     <a><NavLink to='/' style={({ isActive }) => isActive ? active : null}>home</NavLink></a>
@@ -29,8 +29,8 @@ const Header = () => {
                     <a><NavLink to='/contactus' style={({ isActive }) => isActive ? active : null}>contact us</NavLink></a>
                 </nav>
 
-                <a href="#" class="btn">
-                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                <a href="#" className="btn">
+                    <i className="fa fa-user-circle" aria-hidden="true"></i>
                 </a>
             </div>
         </>

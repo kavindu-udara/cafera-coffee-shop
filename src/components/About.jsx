@@ -15,7 +15,7 @@ const About = () => {
                 </div>
                 <div className="content">
                     <h3 className="title">what's make our coffee special!</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis consectetur, animi aperiam dolorum sequi nemo totam nesciunt cumque. Magnam, eveniet vero a velit possimus aperiam cumque dolorum itaque dicta voluptates?</p>
+                    <p>At the core of our operation lies a commitment to sourcing the highest-quality raw coffee beans from trusted suppliers, ensuring consistency and excellence in every batch. Through meticulous processing and packaging techniques, we maintain the integrity and premium quality of our coffee beans, encapsulating them in individual, tea bag-like sachets.</p>
                     <a href="#" className="btn">read more</a>
 
                     <div className="icons-container">
