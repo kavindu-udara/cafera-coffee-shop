@@ -28,10 +28,10 @@ const Footer = () => {
             </div>
             <div className="box">
                 <h3>contact info</h3>
-                <a href="#"><i className="fas fa-phone"></i> +123-456-7890</a>
+                <a href="#"><i className="fas fa-phone"></i> (081) 55 32 789</a>
                 <a href="#"><i className="fas fa-phone"></i> +111-222-3333</a>
                 <a href="#"><i className="fas fa-envelope"></i> cafera@cafera.com</a>
-                <a href="#"><i className="fas fa-envelope"></i> colombo, Sri Lanka</a>
+                <a href="#"><i className="fas fa-envelope"></i> 4th avenue, Hadineya, Kandy</a>
             </div>
             <div className="box">
                 <h3>contact info</h3>

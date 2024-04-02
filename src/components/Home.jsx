@@ -14,6 +14,8 @@ import Icon4 from '../assets/menu-4.png';
 import Icon5 from '../assets/menu-5.png';
 import Icon6 from '../assets/menu-6.png';
 
+import roadmap from '../assets/roadmap transparent.png';
+
 const Home = () => {
     return (
         <div>
@@ -90,6 +92,13 @@ const Home = () => {
                     <div className="image">
                         <img src={DarkCoffeCup} alt="about" />
                     </div>
+                </div>
+            </section>
+
+            <section className="about" id='about'>
+                <h1 className="heading">choose us<span>why choose us</span></h1>
+                <div className="" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <img src={roadmap} alt="about" style={{ maxWidth: "100%" }} />
                 </div>
             </section>
 

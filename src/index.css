@@ -195,6 +195,15 @@ section {
     flex: 1 1 42rem;
 }
 
+.coffeCultImage{
+    flex: 1 1 42rem;
+}
+.coffeCultImage img{
+    width: 100%;
+    
+    border-radius: var(--border-radius);
+}
+
 .about .row .image img {
     width: 100%;
     animation: aboutImage 4s linear infinite;
