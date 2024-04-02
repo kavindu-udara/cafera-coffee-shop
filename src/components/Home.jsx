@@ -96,7 +96,7 @@ const Home = () => {
             </section>
 
             <section className="about" id='about'>
-                <h1 className="heading">choose us<span>why choose us</span></h1>
+                <h1 className="heading">roadmap<span>our roadmap</span></h1>
                 <div className="" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <img src={roadmap} alt="about" style={{ maxWidth: "100%" }} />
                 </div>
